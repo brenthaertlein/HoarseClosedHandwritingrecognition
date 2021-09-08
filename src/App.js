@@ -1,4 +1,5 @@
 import React from 'react';
+import Birds from './Birds';
 import logo from './logo.png';
 import './App.css';
 
@@ -11,8 +12,10 @@ function App() {
           Bird Generator!
         </h1>
       </header>
-      <div class="footer">
-        <p>
+      <div className="App-body">
+        <Birds />
+      </div>
+      <div className="App-footer">
           Written in&nbsp;
           <a
             className="App-link"
@@ -22,7 +25,6 @@ function App() {
           >
             React
           </a>
-        </p>
       </div>
     </div>
   );
